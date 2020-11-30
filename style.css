@@ -1,0 +1,49 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::root {
+/*nothing*/
+}
+
+main {
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: #FFFFF3;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+}
+
+.grid-item {
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+}
+
+.x {
+    background: url(img/x.png);
+}
+
+.o {
+    background: url(img/o.png);
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.2rem;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3rem;
+}
