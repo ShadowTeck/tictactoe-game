@@ -276,7 +276,7 @@ function youWin(player){
     // let posWinConSix = [3, 6, 9];
     // let posWinConSeven = [1, 5, 9];
     // let posWinConEight = [3, 5, 7];
-    alert(`you win! ${player}`)
+    alert(`You win ${player}!`)
 }
 
 

@@ -13,13 +13,17 @@ main {
     display: grid;
     justify-content: center;
     align-content: center;
-    background-color: #FFFFF3;
+    
 }
 
 .grid {
     display: flex;
     flex-wrap: wrap;
     width: 600px;
+}
+
+body {
+    background: url("img/paperbg.jpg") repeat fixed ;
 }
 
 .grid-item {
